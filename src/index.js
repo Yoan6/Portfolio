@@ -13,6 +13,7 @@ root.render(
     <React.StrictMode>
         <Router>
             <GlobalStyle />
+            <div className="rotating-background"></div>
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
