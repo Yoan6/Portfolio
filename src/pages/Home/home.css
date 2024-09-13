@@ -1,0 +1,75 @@
+/* Style global pour les titres */
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    color: #5D3FD3;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+/* Container pour les infos personnelles */
+.info-container {
+    background-color: rgba(174, 174, 174, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 2rem;
+    width: 700px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Détails d'information */
+.info-details {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    gap: 70px;
+}
+
+.info-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-column:first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Liens sociaux */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    margin: 0 1rem;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+}
+
+.link {
+    color: blueviolet;
+}
+
+/* Section À propos */
+.about-section {
+    background-color: rgba(174, 174, 174, 0.8);
+    border-radius: 12px;
+    padding: 2rem;
+    width: 700px;
+    margin-bottom: 2rem;
+    text-align: left;
+}

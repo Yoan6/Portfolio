@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import backgroundImage from "../../assets/background.jpg"
+import backgroundImage from "../../assets/general/background.jpg"
 
 const StyledGlobalStyle = createGlobalStyle`
   * {
@@ -7,9 +7,18 @@ const StyledGlobalStyle = createGlobalStyle`
   }
 
   body {
-    margin: 0;
+    margin: 120px 0 0 0;
     background-color: rgba(0, 0, 0, 0.99999);
     color: white;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .page-content {
+    margin: 0 30px;
   }
 
   .rotating-background {

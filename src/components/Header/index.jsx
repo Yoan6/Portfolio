@@ -5,7 +5,6 @@ import { PageContext } from "../../utils/context";
 
 const HeaderWrap = styled.header`
   border: 1px white solid;
-  background-color: grey;
   position: fixed;
   top: 40px;
   left: 50%;
@@ -17,29 +16,31 @@ const HeaderWrap = styled.header`
 `;
 
 const StyledLink = styled(Link)`
-  padding: 10px 60px;
-  text-decoration: none;
-  color: white;
-  background-color: transparent;
-  transition: background-color 0.3s ease;
-  &:hover {
-      background-color: blueviolet;
-      color: white;
-  }
-
-  /* Appliquer un style spécial au lien actif */
-  &.active {
-    background-color: blueviolet;
+    padding: 10px 0;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
     color: white;
-  }
+    background-color: black;
+    transition: background-color 0.3s ease;
 
-  &:first-child {
-    border-radius: 20px 0 0 20px;
-  }
+    &:hover {
+        background-color: blueviolet;
+        color: white;
+    }
 
-  &:last-child {
-    border-radius: 0 20px 20px 0;
-  }
+    &.active {
+        background-color: blueviolet;
+        color: white;
+    }
+
+    &:first-child {
+        border-radius: 20px 0 0 20px;
+    }
+
+    &:last-child {
+        border-radius: 0 20px 20px 0;
+    }
 `;
 
 function Header() {
