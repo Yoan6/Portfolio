@@ -13,6 +13,7 @@ const HeaderWrap = styled.header`
   flex-direction: row;
   justify-content: center;
   border-radius: 20px;
+  z-index: 100;
 `;
 
 const StyledLink = styled(Link)`

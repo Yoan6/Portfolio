@@ -4,7 +4,7 @@ import Linkedin from '../../assets/general/linkedin.svg'
 
 function Home() {
     return (
-        <div>
+        <div className="home-page">
             {/* Section d'information personnelle */}
             <div className="info-container">
                 <h1>Bonjour, je suis Yoan Delannoy</h1>
@@ -41,7 +41,8 @@ function Home() {
                 <p>
                     Je m'appelle Yoan Delannoy et je suis diplômé d'un BUT Informatique à l'IUT2 de Grenoble. Passionné
                     par le développement web,
-                    je suis toujours curieux de voir les possibilités que nous offre ce domaine.
+                    je suis toujours curieux de voir les possibilités que nous offre ce domaine. <span id="CDI">Je suis actuellement à la recherche
+                    d'un CDI dans le développement web en tant que développeur front-end, back-end ou full-stack.</span>
                 </p>
                 <p>A travers différentes expériences professionnelles, j'ai pu acquérir de nombreuses compétences et
                     connaissances notamment lors d'un stage
