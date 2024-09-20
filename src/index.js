@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import GlobalStyle from "./utils/style/GlobalStyle";
-import Formations from "./pages/Formations";
+import Experiences from "./pages/Experiences";
 import Projets from "./pages/Projets";
 import Error from "./pages/Error";
 import Skills from "./pages/Skills";
@@ -20,7 +20,7 @@ root.render(
                 <Header />
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/formations" element={<Formations />} />
+                    <Route path="/experiences" element={<Experiences />} />
                     <Route path="/projets" element={<Projets />} />
                     <Route path="/skills" element={<Skills/>}/>
                     <Route path="*" element={<Error/>}/>

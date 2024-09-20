@@ -27,6 +27,7 @@ import mysql from '../../assets/skills/mysql.svg'
 import neo4j from '../../assets/skills/neo4j.png'
 import nodejs from '../../assets/skills/nodejs.svg'
 import pycharm from '../../assets/skills/pycharm.svg'
+import firebase from '../../assets/skills/firebase.png'
 import react from '../../assets/skills/react.svg'
 import typescript from '../../assets/skills/typescript.png'
 import uml from '../../assets/skills/uml.svg'
@@ -136,6 +137,10 @@ function Skills() {
                         <p>MongoDB</p>
                     </div>
                     <div className="skill-item">
+                        <img src={firebase} alt="Firebase"/>
+                        <p>Firebase</p>
+                    </div>
+                    <div className="skill-item">
                         <img src={neo4j} alt="Neo4j"/>
                         <p>Neo4j</p>
                     </div>
@@ -213,12 +218,15 @@ function Skills() {
                     </div>
                 </div>
 
-
                 <div className="skills-subcategory">
-                    <h3>Virtualisation/containers</h3>
+                    <h3>Autres</h3>
                     <div className="skill-item">
                         <img src={docker} alt="Docker"/>
                         <p>Docker</p>
+                    </div>
+                    <div className="skill-item">
+                        <img src={jira} alt="Jira"/>
+                        <p>Jira</p>
                     </div>
                 </div>
             </section>

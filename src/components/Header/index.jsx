@@ -13,7 +13,7 @@ const HeaderWrap = styled.header`
   flex-direction: row;
   justify-content: center;
   border-radius: 20px;
-  z-index: 100;
+  z-index: 1000;
 `;
 
 const StyledLink = styled(Link)`
@@ -56,6 +56,7 @@ function Header() {
             >
                 Accueil
             </StyledLink>
+
             <StyledLink
                 to="/skills"
                 className={page === 'skills' ? 'active' : ''}
@@ -64,18 +65,19 @@ function Header() {
                 Compétences
             </StyledLink>
             <StyledLink
-                to="/formations"
-                className={page === 'formations' ? 'active' : ''}
-                onClick={() => changePage('formations')}
-            >
-                Formation
-            </StyledLink>
-            <StyledLink
                 to="/projets"
                 className={page === 'projets' ? 'active' : ''}
                 onClick={() => changePage('projets')}
             >
                 Projets
+            </StyledLink>
+
+            <StyledLink
+                to="/experiences"
+                className={page === 'experiences' ? 'active' : ''}
+                onClick={() => changePage('experiences')}
+            >
+                Expériences
             </StyledLink>
         </HeaderWrap>
     );

@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-    color: #5D3FD3;
+    color: #4a90e2;
     font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 0;
@@ -23,7 +23,8 @@ h2 {
 
 /* Container pour les infos personnelles */
 .info-container {
-    background-color: rgba(174, 174, 174, 0.8);
+    background-color: rgba(255, 255, 255, 0.17);
+    backdrop-filter: blur(5px);
     border-radius: 12px;
     padding: 2rem;
     width: 700px;
@@ -75,7 +76,8 @@ h2 {
 
 /* Section À propos */
 .about-section {
-    background-color: rgba(174, 174, 174, 0.8);
+    background-color: rgba(255, 255, 255, 0.17);
+    backdrop-filter: blur(5px);
     border-radius: 12px;
     padding: 2rem;
     width: 700px;
