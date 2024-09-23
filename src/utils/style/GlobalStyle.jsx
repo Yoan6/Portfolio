@@ -18,7 +18,12 @@ const StyledGlobalStyle = createGlobalStyle`
   }
 
   .page-content {
-    margin: 0 30px;
+    margin: 30px;
+  }
+  
+  h1 {
+    font-size: 2.8rem;
+    margin-top: 0;
   }
 
   .rotating-background {

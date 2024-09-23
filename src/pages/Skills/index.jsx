@@ -1,4 +1,4 @@
-import './skills.css'
+import style from './skills.module.css'
 import html from '../../assets/skills/html.png'
 import css from '../../assets/skills/css.png'
 import js from '../../assets/skills/javascript.png'
@@ -30,6 +30,8 @@ import pycharm from '../../assets/skills/pycharm.svg'
 import firebase from '../../assets/skills/firebase.png'
 import react from '../../assets/skills/react.svg'
 import typescript from '../../assets/skills/typescript.png'
+import cypress from '../../assets/skills/cypress.png'
+import talend from '../../assets/skills/talend.svg'
 import uml from '../../assets/skills/uml.svg'
 import visual_paradigm from '../../assets/skills/visual-paradigm.png'
 import vscode from '../../assets/skills/vscode.svg'
@@ -45,118 +47,126 @@ import anglais from '../../assets/skills/UK.svg'
 
 function Skills() {
     return (
-        <div className="skills-page">
+        <div className={style.skillsPage}>
             <h1>Compétences</h1>
             {/*Section Langages Informatiques*/}
-            <section className="skills-category">
+            <section className={style.skillsCategory}>
                 <h2>Langages Informatiques</h2>
-                <div className="skills-subcategory">
+                <div className={style.skillsSubcategory}>
                     <h3>Front-end</h3>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={html} alt="HTML"/>
                         <p>HTML</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={css} alt="CSS"/>
                         <p>CSS</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={js} alt="JavaScript"/>
                         <p>JavaScript</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={react} alt="React"/>
                         <p>React</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={typescript} alt="TypeScript"/>
                         <p>TypeScript</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={angular} alt="Angular"/>
                         <p>Angular</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={flutter} alt="Flutter"/>
                         <p>Flutter</p>
                     </div>
                 </div>
 
-                <div className="skills-subcategory">
+                <div className={style.skillsSubcategory}>
                     <h3>Back-end</h3>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={python} alt="Python"/>
                         <p>Python</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={nodejs} alt="Node.js"/>
                         <p>Node.js</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={php} alt="PHP"/>
                         <p>PHP</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={c_plus_plus} alt="C++"/>
                         <p>C++</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={symfony} alt="Symfony"/>
                         <p>Symfony</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={java} alt="Java"/>
                         <p>Java</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={api_rest} alt="API rest"/>
                         <p>API rest</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={bash} alt="Bash"/>
                         <p>Bash</p>
                     </div>
+                    <div className={style.skillItem}>
+                        <img src={cypress} alt="Cypress"/>
+                        <p>Cypress</p>
+                    </div>
                 </div>
 
-                <div className="skills-subcategory">
+                <div className={style.skillsSubcategory}>
                     <h3>Base de données</h3>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={postgresql} alt="PostgreSQL"/>
                         <p>PostgreSQL</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={mysql} alt="MySQL"/>
                         <p>MySQL</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={sqlite} alt="SQLite"/>
                         <p>SQLite</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={mongoDB} alt="MongoDB"/>
                         <p>MongoDB</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={firebase} alt="Firebase"/>
                         <p>Firebase</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={neo4j} alt="Neo4j"/>
                         <p>Neo4j</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={elastic_search} alt="Elastic Search"/>
                         <p>Elastic Search</p>
                     </div>
+                    <div className={style.skillItem}>
+                        <img src={talend} alt="Talend"/>
+                        <p>Talend</p>
+                    </div>
                 </div>
 
-                <div className="skills-subcategory">
+                <div className={style.skillsSubcategory}>
                     <h3>Autres</h3>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={markdown} alt="Markdown"/>
                         <p>Markdown</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={uml} alt="UML"/>
                         <p>UML</p>
                     </div>
@@ -164,67 +174,67 @@ function Skills() {
             </section>
 
             {/*Section Logiciels*/}
-            <section className="skills-category">
+            <section className={style.skillsCategory}>
                 <h2>Logiciels</h2>
-                <div className="skills-subcategory">
+                <div className={style.skillsSubcategory}>
                     <h3>IDE</h3>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={vscode} alt="VS Code"/>
                         <p>VS Code</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={pycharm} alt="PyCharm"/>
                         <p>PyCharm</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={intellij} alt="Intellij"/>
                         <p>Intellij</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={clion} alt="CLion"/>
                         <p>CLion</p>
                     </div>
                 </div>
 
-                <div className="skills-subcategory">
+                <div className={style.skillsSubcategory}>
                     <h3>Conception</h3>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={figma} alt="Figma"/>
                         <p>Figma</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={draw_io} alt="Draw.io"/>
                         <p>Draw.io</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={visual_paradigm} alt="Visual Paradigm"/>
                         <p>Visual Paradigm</p>
                     </div>
                 </div>
 
-                <div className="skills-subcategory">
+                <div className={style.skillsSubcategory}>
                     <h3>Versionning</h3>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={git} alt="Git"/>
                         <p>Git</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={github} alt="GitHub"/>
                         <p>GitHub</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={gitlab} alt="GitLab"/>
                         <p>GitLab</p>
                     </div>
                 </div>
 
-                <div className="skills-subcategory">
+                <div className={style.skillsSubcategory}>
                     <h3>Autres</h3>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={docker} alt="Docker"/>
                         <p>Docker</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={jira} alt="Jira"/>
                         <p>Jira</p>
                     </div>
@@ -232,22 +242,22 @@ function Skills() {
             </section>
 
             {/*Section Soft Skills*/}
-            <section className="skills-category">
+            <section className={style.skillsCategory}>
             <h2>Soft Skills</h2>
-                <div className="skills-subcategory">
-                    <div className="skill-item">
+                <div className={style.skillsSubcategory}>
+                    <div className={style.skillItem}>
                         <img src={equipe} alt="Travail d'équipe"/>
                         <p>Travail d'équipe</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={ponctualite} alt="Ponctualité"/>
                         <p>Ponctualité</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={perseverance} alt="Persévérance"/>
                         <p>Persévérance</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={curiosite} alt="Curiosité"/>
                         <p>Curiosité</p>
                     </div>
@@ -255,14 +265,14 @@ function Skills() {
             </section>
 
             {/*Section Langues*/}
-            <section className="skills-category">
+            <section className={style.skillsCategory}>
                 <h2>Langues</h2>
-                <div className="skills-subcategory">
-                    <div className="skill-item">
+                <div className={style.skillsSubcategory}>
+                    <div className={style.skillItem}>
                         <img src={français} alt="Français"/>
                         <p>Français (Natif)</p>
                     </div>
-                    <div className="skill-item">
+                    <div className={style.skillItem}>
                         <img src={anglais} alt="Anglais"/>
                         <p>Anglais (B2)</p>
                     </div>

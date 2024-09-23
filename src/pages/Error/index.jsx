@@ -1,9 +1,9 @@
 import ErrorImage from '../../assets/general/error.png'
-import './error.css'
+import styles from './error.module.css'
 
 function Error() {
     return (
-        <div className="container">
+        <div className={styles.container}>
             <img src={ErrorImage} alt="Erreur"/>
             <h1>Cette page n'existe pas, désolé !</h1>
         </div>

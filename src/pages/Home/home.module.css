@@ -1,10 +1,12 @@
 /* Style global pour les titres */
-h1 {
-    font-size: 2.8rem;
-    margin-bottom: 0.5rem;
+.homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
 }
 
-h2 {
+#subtitle {
     color: #4a90e2;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -15,14 +17,8 @@ h2 {
     background-color: blueviolet;
 }
 
-.home-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 /* Container pour les infos personnelles */
-.info-container {
+.infoContainer {
     background-color: rgba(255, 255, 255, 0.17);
     backdrop-filter: blur(5px);
     border-radius: 12px;
@@ -33,7 +29,7 @@ h2 {
 }
 
 /* Détails d'information */
-.info-details {
+.infoDetails {
     text-align: left;
     display: flex;
     flex-direction: row;
@@ -43,39 +39,39 @@ h2 {
     gap: 70px;
 }
 
-.info-column {
+.infoColumn {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.info-column:first-child {
+.infoColumn:first-child {
     text-transform: uppercase;
     font-weight: bold;
 }
 
 /* Liens sociaux */
-.social-links {
+.socialLinks {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
 }
 
-.social-links a {
+.socialLinks a {
     margin: 0 1rem;
     transition: transform 0.3s ease;
 }
 
-.social-links a:hover {
+.socialLinks a:hover {
     transform: scale(1.2);
 }
 
 .link {
-    color: blueviolet;
+    color: #4a90e2;
 }
 
 /* Section À propos */
-.about-section {
+.aboutSection {
     background-color: rgba(255, 255, 255, 0.17);
     backdrop-filter: blur(5px);
     border-radius: 12px;
