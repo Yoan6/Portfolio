@@ -1,24 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap');
 
 .projectsContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
-    padding: 0 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 0 100px;
 }
 
 .project {
-    opacity: 0;
+    padding: 20px 20px 0 20px;
+    max-width: 600px;
     transition: opacity 1s ease, transform 1s ease;
-    background-color: white;
+    background-color: blueviolet;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    cursor: pointer;
 }
 
 .project.inView {
-    opacity: 1;
     transform: translateX(0);
+}
+
+.projectYear {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    color: #4a90e2;
+    font-weight: bold;
 }
 
 .project:not(.inView) {
@@ -28,9 +39,9 @@
 
 .projectImage {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 300px;
     transition: transform 0.3s ease;
+    border-radius: 10px;
 }
 
 .project:hover .projectImage {
@@ -38,19 +49,23 @@
 }
 
 .projectContent {
-    padding: 1.5rem;
+    margin: 0 20px;
+    padding: 0 10px;
+    position: relative;
+    color: black;
+    background-color: #cacaca;
+    border-radius: 10px;
 }
 
 .projectContent h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 900;
-    color: #333;
 }
 
 .projectContent p {
     font-size: 1rem;
-    color: #666;
+    color: #404040;
     line-height: 1.5;
 }
 

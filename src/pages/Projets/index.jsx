@@ -2,71 +2,86 @@ import React from 'react';
 import classNames from 'classnames';
 import style from './projets.module.css';
 import { useInView } from 'react-intersection-observer';
+import epsilonManager from '../../assets/projets/epsilonmanager/appli.png'
+import gadi from '../../assets/projets/gadi/dashboard.png'
+import tourOfHeroes from '../../assets/projets/tourOfHeroes/modify_hero.png'
+import fusionGraphe from '../../assets/projets/fusionGraphe/fusionGraphe.png'
+import robotGravity from '../../assets/projets/gamejam/accueil.png'
+import carnetStage from '../../assets/projets/stage/offres.png'
+import api from '../../assets/projets/TP-API/site.png'
+import crescendo from '../../assets/projets/crescendo/home.png'
+import portfolio from '../../assets/projets/portfolio/portfolio.png'
 
 const projetsData = [
     {
         id: 1,
-        image: 'https://picsum.photos/400/400?random=1',
-        title: 'Projet 1',
-        description: 'Description du projet 1 avec les technologies utilisées et les résultats obtenus.'
+        image: `${fusionGraphe}`,
+        title: 'Projet stage LIG',
+        description: "Création d’un site web et d’un algorithme permettant d’extraire et afficher les\n" +
+            "données de sites web concernant n’importe quelle commune de France",
+        year: '2024'
     },
     {
         id: 2,
-        image: 'https://picsum.photos/400/400?random=2',
-        title: 'Projet 2',
-        description: 'Description du projet 2 avec les objectifs et l\'impact du projet.'
+        image: `${gadi}`,
+        title: 'GADI',
+        description: "Création d’un site pour le département informatique pour la gestion administrative de l’IUT",
+        year: '2023-2024'
     },
     {
         id: 3,
-        image: 'https://picsum.photos/400/400?random=3',
-        title: 'Projet 3',
-        description: 'Informations techniques sur le projet 3, un concept innovant ou créatif.'
+        image: `${portfolio}`,
+        title: 'Ancien portfolio',
+        description: "Création de mon ancien portfolio avec html/css",
+        year: '2024'
     },
     {
         id: 4,
-        image: 'https://picsum.photos/400/400?random=4',
-        title: 'Projet 4',
-        description: 'Description du projet 1 avec les technologies utilisées et les résultats obtenus.'
+        image: `${tourOfHeroes}`,
+        title: 'Tour of Heroes',
+        description: "Création d'un site de héros qui peuvent combatre entre eux et s'équiper d'arme",
+        year: '2023'
     },
     {
         id: 5,
-        image: 'https://picsum.photos/400/400?random=5',
-        title: 'Projet 5',
-        description: 'Description du projet 2 avec les objectifs et l\'impact du projet.'
+        image: `${robotGravity}`,
+        title: 'Robot Gravity',
+        description: "Création d'un jeu en Python sur les thèmes 'robot' et 'gravité'",
+        year: '2023'
     },
     {
         id: 6,
-        image: 'https://picsum.photos/400/400?random=6',
-        title: 'Projet 6',
-        description: 'Informations techniques sur le projet 3, un concept innovant ou créatif.'
+        image: `${carnetStage}`,
+        title: 'Carnet de stage',
+        description: "Rétro-conception et optimisation d'une application web et mobile pour la gestion\n" +
+            "d'offres de stage",
+        year: '2023'
     },
     {
         id: 7,
-        image: 'https://picsum.photos/400/400?random=7',
-        title: 'Projet 7',
-        description: 'Informations techniques sur le projet 3, un concept innovant ou créatif.'
+        image: `${api}`,
+        title: 'Projet API',
+        description: "Développement d'un mini site utilisant une api publique de recherche d'article de news",
+        year: '2023'
     },
     {
         id: 8,
-        image: 'https://picsum.photos/400/400?random=8',
-        title: 'Projet 8',
-        description: 'Description du projet 1 avec les technologies utilisées et les résultats obtenus.'
+        image: `${crescendo}`,
+        title: 'Crescendo',
+        description: "Développement d’une application web de vente aux enchères d’objets et\n" +
+            "vêtements ayant appartenu à des stars en concert.",
+        year: '2022-2023'
     },
     {
         id: 9,
-        image: 'https://picsum.photos/400/400?random=9',
-        title: 'Projet 9',
-        description: 'Description du projet 2 avec les objectifs et l\'impact du projet.'
-    },
-    {
-        id: 10,
-        image: 'https://picsum.photos/400/400?random=10',
-        title: 'Projet 10',
-        description: 'Informations techniques sur le projet 3, un concept innovant ou créatif.'
+        image: `${epsilonManager}`,
+        title: 'Epsilon Manager',
+        description: "Application d'organisation d'évènement culturels",
+        year: '2021-2022'
     }
 ];
 
-function Projet({ image, title, description }) {
+function Projet({ image, title, description, year }) {
     const { ref, inView } = useInView({
         threshold: 0.1
     });
@@ -75,6 +90,7 @@ function Projet({ image, title, description }) {
         <section ref={ref} className={classNames(style.project, { [style.inView]: inView })}>
             <img src={image} alt={title} className={style.projectImage} />
             <div className={style.projectContent}>
+                <section className={style.projectYear}>{year}</section>
                 <h2>{title}</h2>
                 <p>{description}</p>
             </div>
@@ -93,6 +109,7 @@ function Projets() {
                         image={projet.image}
                         title={projet.title}
                         description={projet.description}
+                        year={projet.year}
                     />
                 ))}
             </main>
