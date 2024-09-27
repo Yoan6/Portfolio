@@ -13,8 +13,8 @@ const StyledGlobalStyle = createGlobalStyle`
   }
 
   .icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 
   .page-content {
@@ -25,6 +25,49 @@ const StyledGlobalStyle = createGlobalStyle`
     font-size: 2.8rem;
     margin-top: 0;
   }
+
+  /* Entrée depuis la gauche */
+  .slide-left-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  .slide-left-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+
+  .slide-left-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .slide-left-exit-active {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 300ms, transform 300ms;
+  }
+
+  /* Entrée depuis la droite */
+  .slide-right-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  .slide-right-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 200ms;
+  }
+
+  .slide-right-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .slide-right-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 300ms, transform 300ms;
+  }
+
 
   .rotating-background {
     position: fixed;

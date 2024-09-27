@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap');
 
+a {
+    text-decoration: none;
+}
+
 .projectsContainer {
     display: flex;
     flex-direction: row;
@@ -13,9 +17,9 @@
     padding: 20px 20px 0 20px;
     max-width: 600px;
     transition: opacity 1s ease, transform 1s ease;
-    background-color: blueviolet;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 15px;
+    border: 6px solid #4a90e2;
     overflow: hidden;
     cursor: pointer;
 }
@@ -26,9 +30,9 @@
 
 .projectYear {
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 40px;
-    color: #4a90e2;
+    color: blueviolet;
     font-weight: bold;
 }
 

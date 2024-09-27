@@ -9,8 +9,9 @@ import Experiences from "./pages/Experiences";
 import Projets from "./pages/Projets";
 import Error from "./pages/Error";
 import Skills from "./pages/Skills";
+import FusionGraphe from "./pages/projets/FusionGraphe"
+import RobotGravity from "./pages/projets/RobotGravity";
 import {PageContext, PageProvider} from "./utils/context";
-import './utils/style/globalStyle.css'
 
 // Ordre des pages
 const pageOrder = ['home', 'skills', 'projets', 'experiences'];
@@ -36,7 +37,7 @@ function App() {
 
         // Ramène la vue vers le haut de la page
         window.scrollTo(0, 0);
-    }, [page]);
+    }, [location, page]);
 
     return (
         <>
@@ -54,6 +55,8 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/experiences" element={<Experiences />} />
                         <Route path="/projets" element={<Projets />} />
+                        <Route path="/projets/fusion-graphe" element={<FusionGraphe />} />
+                        <Route path="/projets/robot-gravity" element={<RobotGravity />} />
                         <Route path="/skills" element={<Skills />} />
                         <Route path="*" element={<Error />} />
                     </Routes>
