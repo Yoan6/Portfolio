@@ -10,7 +10,7 @@ import robotGravity from '../../assets/projets/gamejam/accueil.png'
 import carnetStage from '../../assets/projets/stage/offres.png'
 import api_news from '../../assets/projets/TP-API/site.png'
 import crescendo from '../../assets/projets/crescendo/home.png'
-import portfolio from '../../assets/projets/portfolio/portfolio.png'
+import portfolio from '../../assets/projets/old-portfolio/portfolio.png'
 import {Link} from "react-router-dom";
 
 const projetsData = [

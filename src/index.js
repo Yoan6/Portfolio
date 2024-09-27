@@ -11,6 +11,7 @@ import Error from "./pages/Error";
 import Skills from "./pages/Skills";
 import FusionGraphe from "./pages/projets/FusionGraphe"
 import RobotGravity from "./pages/projets/RobotGravity";
+import OldPortfolio from "./pages/projets/OldPortfolio";
 import {PageContext, PageProvider} from "./utils/context";
 
 // Ordre des pages
@@ -57,6 +58,7 @@ function App() {
                         <Route path="/projets" element={<Projets />} />
                         <Route path="/projets/fusion-graphe" element={<FusionGraphe />} />
                         <Route path="/projets/robot-gravity" element={<RobotGravity />} />
+                        <Route path="/projets/old-portfolio" element={<OldPortfolio />} />
                         <Route path="/skills" element={<Skills />} />
                         <Route path="*" element={<Error />} />
                     </Routes>
