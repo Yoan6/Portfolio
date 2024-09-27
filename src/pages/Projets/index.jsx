@@ -18,7 +18,7 @@ const projetsData = [
         id: 1,
         image: `${fusionGraphe}`,
         name: 'fusion-graphe',
-        title: 'Projet stage LIG',
+        title: 'Fusion de graphe',
         description: "Création d’un site web et d’un algorithme permettant d’extraire et afficher les\n" +
             "données de sites web concernant n’importe quelle commune de France",
         year: '2024'

@@ -67,8 +67,7 @@ const StyledGlobalStyle = createGlobalStyle`
     transform: translateX(-100%);
     transition: opacity 300ms, transform 300ms;
   }
-
-
+  
   .rotating-background {
     position: fixed;
     top: 50%;

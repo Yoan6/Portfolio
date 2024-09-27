@@ -46,7 +46,7 @@ function RobotGravity() {
 
                 <p>Nous devions donc faire un jeu en utilisant le langage Python et sa librairie Pygame permettant de faire des jeux 2D basiques mais rapides à faire.
                     Nous devions faire attention à la qualité du code en plus de fournir un jeu le plus original possible.
-                    Nous avions prévu de faire plusieurs niveaux mais avons manqué de temps donc il n'en existe qu'un seul. Dans <strong className={style.strong}>Robot Gravity</strong>, le robot
+                    Nous avions prévu de faire plusieurs niveaux mais avons manqué de temps donc il n'en existe qu'un seul. Dans <strong>Robot Gravity</strong>, le robot
                     doit se déplacer de plateforme en plateforme en utilisant des sauts et la gravité tout en évitant les trous et les pics afin d'atteindre son bras.</p>
 
                 <div className={style.list_img_detail_projet}>
