@@ -27,7 +27,7 @@ function OldPortfolio() {
             <div id={style.infos_projets_container}>
                 <div id={style.project_name}>
                     <h1>Ancien Portfolio</h1>
-                    <a target="_blank" href="https://github.com/Yoan6/portfolio" rel="noreferrer"> {/*TODO: A CHANGER DÈS QUE LE NOUVEAU PORTFOLIO EST DEPLOYE !!!!*/}
+                    <a target="_blank" href="https://github.com/Yoan6/Old-portfolio" rel="noreferrer"> {/*TODO: A CHANGER DÈS QUE LE NOUVEAU PORTFOLIO EST DEPLOYE !!!!*/}
                         <div>
                             <section>Voir le projet</section>
                             <img className="icon" src={code} alt="code"/>
