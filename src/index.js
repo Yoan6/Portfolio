@@ -15,6 +15,7 @@ import OldPortfolio from "./pages/projets/OldPortfolio";
 import GADI from "./pages/projets/GADI";
 import TourOfHeroes from "./pages/projets/TourOfHeroes";
 import CarnetStage from "./pages/projets/CarnetStage";
+import APINews from "./pages/projets/API-news";
 import {PageContext, PageProvider} from "./utils/context";
 
 // Ordre des pages
@@ -65,6 +66,7 @@ function App() {
                         <Route path="/projets/gadi" element={<GADI />} />
                         <Route path="/projets/tour-of-heroes" element={<TourOfHeroes />} />
                         <Route path="/projets/carnet-stage" element={<CarnetStage />} />
+                        <Route path="/projets/api-news" element={<APINews />} />
                         <Route path="/skills" element={<Skills />} />
                         <Route path="*" element={<Error />} />
                     </Routes>

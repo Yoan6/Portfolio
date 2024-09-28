@@ -8,7 +8,7 @@ import tourOfHeroes from '../../assets/projets/tourOfHeroes/modify_hero.png'
 import fusionGraphe from '../../assets/projets/fusionGraphe/fusionGraphe.png'
 import robotGravity from '../../assets/projets/gamejam/accueil.png'
 import carnetStage from '../../assets/projets/carnet-stage/offres.png'
-import api_news from '../../assets/projets/TP-API/site.png'
+import api_news from '../../assets/projets/API-news/site.png'
 import crescendo from '../../assets/projets/crescendo/home.png'
 import portfolio from '../../assets/projets/old-portfolio/portfolio.png'
 import {Link} from "react-router-dom";
@@ -68,7 +68,7 @@ const projetsData = [
         id: 7,
         image: `${api_news}`,
         name: 'api-news',
-        title: 'Projet API',
+        title: "Recherche d'article de news",
         description: "Développement d'un mini site utilisant une api publique de recherche d'article de news",
         year: '2023'
     },
