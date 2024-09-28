@@ -37,6 +37,7 @@ function TourOfHeroes() {
 
                 <ul className={style.bold}>
                     <li id={style.langages}>Langages : <span>HTML</span><span>CSS</span><span>Angular</span><span>TypeScript</span><span>Firebase</span></li>
+                    <li>Projet solo</li>
                     <li>Durée : 1 mois</li>
                 </ul>
 

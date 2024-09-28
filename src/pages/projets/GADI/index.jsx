@@ -35,6 +35,7 @@ function GADI() {
                 <ul className={style.bold}>
                     <li id={style.langages}>Langages front-end : <span>HTML</span><span>CSS</span><span>Angular</span><span>TypeScript</span></li>
                     <li id={style.langages}>Langages back-end : <span>Symfony</span><span>PostgreSQL</span></li>
+                    <li>Groupe de 7 personnes</li>
                     <li>Durée : 6 mois</li>
                 </ul>
 

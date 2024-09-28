@@ -37,6 +37,7 @@ function RobotGravity() {
                 <ul className={style.bold}>
                     <li id={style.langages}>Langage : <span>Python</span></li>
                     <li>Librairie : Pygame</li>
+                    <li>Groupe de 4</li>
                     <li>Durée : 4 jours</li>
                 </ul>
 

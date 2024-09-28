@@ -37,6 +37,7 @@ function OldPortfolio() {
 
                 <ul className={style.bold}>
                     <li id={style.langages}>Langages : <span>HTML</span><span>CSS</span><span>JavaScript</span></li>
+                    <li>Projet solo</li>
                 </ul>
 
                 <p>Ce portfolio a été créé dans le cadre du BUT informatique afin de représenter tous les projets réalisés durant la formation. Il a été fait en peu
