@@ -13,6 +13,7 @@ import FusionGraphe from "./pages/projets/FusionGraphe"
 import RobotGravity from "./pages/projets/RobotGravity";
 import OldPortfolio from "./pages/projets/OldPortfolio";
 import GADI from "./pages/projets/GADI";
+import TourOfHeroes from "./pages/projets/TourOfHeroes";
 import {PageContext, PageProvider} from "./utils/context";
 
 // Ordre des pages
@@ -61,6 +62,7 @@ function App() {
                         <Route path="/projets/robot-gravity" element={<RobotGravity />} />
                         <Route path="/projets/old-portfolio" element={<OldPortfolio />} />
                         <Route path="/projets/gadi" element={<GADI />} />
+                        <Route path="/projets/tour-of-heroes" element={<TourOfHeroes />} />
                         <Route path="/skills" element={<Skills />} />
                         <Route path="*" element={<Error />} />
                     </Routes>
