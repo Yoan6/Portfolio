@@ -54,8 +54,8 @@ function Home() {
                     Durant ma formation de BUT informatique j'ai
                     pu développer mon esprit d'équipe (très important selon moi) ainsi que de nombreux langages de programmation.</p>
                 <p>Si mon profil vous intéresse, n'hésitez pas à me contacter par mail (<a className={style.link} href="mailto:yoan.delannoy1@gmail.com">yoan.delannoy1@gmail.com</a>),
-                    par téléphone au <a className={style.link} href="tel: 07 67 35 77 74">07 67 35 77 74</a> ou via
-                    <a rel="noreferrer" className={style.link} target="_blank" href="https://www.linkedin.com/in/yoan-delannoy-97a9ba2a3/">LinkedIn</a>
+                    par téléphone au <a className={style.link} href="tel: 07 67 35 77 74">07 67 35 77 74</a> ou via <a
+                        rel="noreferrer" className={style.link} target="_blank" href="https://www.linkedin.com/in/yoan-delannoy-97a9ba2a3/">LinkedIn</a>
                 </p>
             </section>
         </div>
