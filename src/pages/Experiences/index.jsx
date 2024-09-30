@@ -16,11 +16,12 @@ function Experiences() {
                     </div>
                     <div className={styles.timelinePanel}>
                         <h4 className={styles.subheading}>2024</h4>
-                        <h4>Stage au LIG (Laboratoire d'Informatique de Grenoble)</h4>
+                        <h4>Stage de 3.5 mois</h4>
                         <div>
-                            <p>Création d’un site web et d’un algorithme permettant d’extraire et
+                            <p>Création d’un site web et d’un algorithme permettant d’extraire, condenser et
                                 afficher les
                                 données de sites web concernant n’importe quelle commune de France</p>
+                            <p>LIG (Laboratoire d'Informatique de Grenoble)</p>
                         </div>
                     </div>
                 </li>
@@ -30,10 +31,11 @@ function Experiences() {
                     </div>
                     <div className={styles.timelinePanel}>
                         <h4 className={styles.subheading}>2023</h4>
-                        <h4>Stage chez Open-prod</h4>
+                        <h4>Stage de 2.5 mois</h4>
                         <div>
                             <p>Développement de la partie mobile de l'ERP Open Prod et résolution
                                 d’un problème de traduction</p>
+                            <p>Open-prod</p>
                         </div>
                     </div>
                 </li>
@@ -45,7 +47,8 @@ function Experiences() {
                         <h4 className={styles.subheading}>2021-2024</h4>
                         <h4>BUT informatique</h4>
                         <div>
-                            <p>Formation de BUT informatique à l'IUT2 de Grenoble, UGA (parcours "Réalisation d'application")</p>
+                            <p>Parcours "Réalisation d'applications"</p>
+                            <p>IUT2 de Grenoble, UGA</p>
                         </div>
                     </div>
                 </li>
@@ -57,8 +60,9 @@ function Experiences() {
                         <h4 className={styles.subheading}>2021</h4>
                         <h4>BAC STI2D</h4>
                         <div>
-                            <p>BAC STI2D au lycée Ferdinand Buisson à Voiron en spécialité SIN (Systèmes d'Information et
-                                Numérique).</p>
+                            <p>Spécialité SIN (Systèmes d'Information et
+                                Numérique)</p>
+                            <p>Lycée Ferdinand Buisson à Voiron</p>
                         </div>
                     </div>
                 </li>

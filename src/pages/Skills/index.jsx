@@ -281,7 +281,7 @@ function Skills() {
                     </div>
                     <div className={style.skillItem}>
                         <img src={anglais} alt="Anglais"/>
-                        <p>Anglais (B2)</p>
+                        <p>Anglais (B1+)</p>
                     </div>
                 </div>
             </section>

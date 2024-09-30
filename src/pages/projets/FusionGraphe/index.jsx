@@ -37,7 +37,7 @@ function FusionGraphe() {
                 </div>
 
                 <ul className={style.bold}>
-                    <li id={style.langages}>Langages : <span>HTML</span><span>CSS</span><span>Angular(TypeScript)</span><span>Python</span></li>
+                    <li id={style.langages}>Langages : <span>HTML</span><span>CSS</span><span>Angular</span><span>TypeScript</span><span>Python</span></li>
                     <li>Projet solo</li>
                     <li>Durée : 3.5 mois</li>
                 </ul>

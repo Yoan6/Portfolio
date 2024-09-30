@@ -175,7 +175,7 @@
 .nav ul li a:after{
     display: block;
     position: absolute;
-    top: 60%;
+    top: 100%;
     content: '';
     height: 2vh;
     margin-top: -1vh;

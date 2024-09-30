@@ -41,9 +41,9 @@ function GADI() {
 
                 <p>Le but de ce projet était de refaire entièrement un site qu'utilisent les profs du département informatique de l'IUT2 de Grenoble : <strong>GADI</strong>. En effet, ce dernier étant créé il y a plus de
                     10 ans et avec l'arrivée de la réforme des BUT, il fut un peu obsolète et mal conçu pour gérer certains cas. Ce dernier permet de faire de nombreuses choses comme la gestion
-                    des budgets des profs ou encore la planification des ressources et SAEs (projets)</p>
+                    des budgets des profs ou encore la planification des ressources et SAÉs (Situation d’Apprentissage et d’Évaluation - projets)</p>
 
-                <p>Ce projet a été mené en méthode agile Kanban et il y a eu toute une partie d'échange avec des professeurs pour bien définir le cahier des charges au niveau fonctionnel et visuel.
+                <p>Ce projet a été mené en méthode agile Kanban et il y a eu toute une partie d'échange avec des profs pour bien définir le cahier des charges au niveau fonctionnel et visuel.
                 Le site web codé est bien évidemment responsive et respecte également certains critères de Bastiens et Scapins définis en amont du projet</p>
 
                 <p>Une ressource est une matière qui est associée à des contrôles, des formations, un budget par étudiant et pour tout le monde, et bien d'autres choses. Une SAÉ est un projet
@@ -52,7 +52,7 @@ function GADI() {
 
                 <ul>
                     <li>Admin</li>
-                    <li>Responsable de ressource/SAE</li>
+                    <li>Responsable de ressource/SAÉ</li>
                     <li>Prof</li>
                 </ul>
 
