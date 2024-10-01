@@ -40,6 +40,7 @@ import api_rest from '../../assets/skills/api-rest.png'
 import curiosite from '../../assets/skills/curiosite.png'
 import perseverance from '../../assets/skills/perseverance.png'
 import ponctualite from '../../assets/skills/ponctualite.png'
+import organisation from '../../assets/skills/organisation.png'
 import equipe from '../../assets/skills/equipe.png'
 import français from '../../assets/skills/france.svg'
 import anglais from '../../assets/skills/UK.svg'
@@ -250,7 +251,7 @@ function Skills() {
 
             {/*Section Soft Skills*/}
             <section className={style.skillsCategory}>
-                <h2>Compétences Interpersonnelles</h2>
+                <h2>Soft Skills</h2>
                 <div className={style.skillsSubcategory}>
                     <div className={style.skillItem}>
                         <img src={equipe} alt="Travail d'équipe"/>
@@ -267,6 +268,10 @@ function Skills() {
                     <div className={style.skillItem}>
                         <img src={curiosite} alt="Curiosité"/>
                         <p>Curiosité</p>
+                    </div>
+                    <div className={style.skillItem}>
+                        <img src={organisation} alt="Organisation"/>
+                        <p>Organisation</p>
                     </div>
                 </div>
             </section>
