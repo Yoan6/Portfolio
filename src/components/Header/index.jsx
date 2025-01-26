@@ -11,7 +11,7 @@ function NewHeader() {
     const handleLinkClick = (pageName) => {
         changePage(pageName);  // Met à jour la page
         if (checkboxRef.current) {
-            checkboxRef.current.checked = false;  // Décocher la checkbox
+            checkboxRef.current.checked = false;  // Décoche la checkbox
         }
     };
 
@@ -21,7 +21,7 @@ function NewHeader() {
                 className={style.menuIcon}
                 type="checkbox"
                 id="menu-icon"
-                ref={checkboxRef}  // Utiliser la référence ici
+                ref={checkboxRef}
             />
             <label htmlFor="menu-icon" className={style.menuLabel}/>
             <nav className={style.nav}>
@@ -30,7 +30,7 @@ function NewHeader() {
                         <Link
                             to="/"
                             className={page === 'home' ? 'active' : ''}
-                            onClick={() => handleLinkClick('home')}  // Appel à la fonction lors du clic
+                            onClick={() => handleLinkClick('home')}
                         >
                             Accueil
                         </Link>

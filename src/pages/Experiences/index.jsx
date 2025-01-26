@@ -2,6 +2,7 @@ import styles from './experiences.module.css';
 import iut2 from '../../assets/logos/iut2.jpeg';
 import open_prod from '../../assets/logos/open-prod.png';
 import lig from '../../assets/logos/lig.jpg';
+import akensys from '../../assets/logos/akensys.jpeg'
 import lycee from '../../assets/logos/lycee.png'
 import informatique from '../../assets/logos/informatique.jpg'
 
@@ -11,6 +12,19 @@ function Experiences() {
             <h1>Expériences</h1>
             <ul className={styles.timeline}>
                 <li>
+                    <div className={styles.timelineImage}>
+                        <img src={akensys} alt="Akensys"/>
+                    </div>
+                    <div className={styles.timelinePanel}>
+                        <h4 className={styles.subheading}>Décembre 2024 - A ce jour</h4>
+                        <h4>CDI - Développeur Informatique</h4>
+                        <div>
+                            <p></p>
+                            <p>Akensys</p>
+                        </div>
+                    </div>
+                </li>
+                <li className={styles.timelineInverted}>
                     <div className={styles.timelineImage}>
                         <img src={lig} alt="LIG"/>
                     </div>
@@ -25,7 +39,7 @@ function Experiences() {
                         </div>
                     </div>
                 </li>
-                <li className={styles.timelineInverted}>
+                <li>
                     <div className={styles.timelineImage}>
                         <img src={open_prod} alt="Open-prod"/>
                     </div>
@@ -39,7 +53,7 @@ function Experiences() {
                         </div>
                     </div>
                 </li>
-                <li>
+                <li className={styles.timelineInverted}>
                     <div className={styles.timelineImage}>
                         <img src={iut2} alt="IUT2"/>
                     </div>
@@ -52,7 +66,7 @@ function Experiences() {
                         </div>
                     </div>
                 </li>
-                <li className={styles.timelineInverted}>
+                <li>
                     <div className={styles.timelineImage}>
                         <img src={lycee} alt="Lycée Ferdinand Buisson"/>
                     </div>
@@ -66,7 +80,7 @@ function Experiences() {
                         </div>
                     </div>
                 </li>
-                <li>
+                <li className={styles.timelineInverted}>
                     <div className={styles.timelineImage}>
                         <img src= {informatique} alt="Informatique"/>
                     </div>
