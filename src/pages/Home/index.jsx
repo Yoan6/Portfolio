@@ -37,10 +37,10 @@ function Home() {
             </div>
             {/* Section À propos */}
             <section className={style.aboutSection}>
-                <h2>À propos de moi</h2>
+                <h2 className={style.link}>À propos de moi</h2>
                 <p>
                     Diplômé d'un BUT Informatique à l'IUT2 de Grenoble, je suis actuellement développeur informatique chez Akensys à Lyon.
-                    En tant que développeur informatique, je développe des sites web pour des clients d'Akensys comme Armand Thiery.
+                    En tant que développeur informatique, je développe des sites web et applications mobiles pour des clients d'Akensys comme Armand Thiery.
                     Je suis passionné par le développement web et suis toujours curieux de voir les possibilités que nous offre ce domaine. 
                     {/* <span id={style.CDI}>Je suis actuellement à la recherche
                     d'un emploi dans le développement web en tant que développeur front-end, back-end ou full-stack.</span> */}
