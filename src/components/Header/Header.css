@@ -49,7 +49,7 @@
 }
 
 .menu-item:hover, .active {
-    background: rgba(255, 255, 255, 0.267);
+    background: grey;
 }
 
 .hamburger {

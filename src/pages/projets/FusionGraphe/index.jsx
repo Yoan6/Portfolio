@@ -28,12 +28,12 @@ function FusionGraphe() {
             <div id={style.infos_projets_container}>
                 <div id={style.project_name}>
                     <h1>Fusion de graphe</h1>
-                    <a target="_blank" href="https://github.com/Yoan6/fusionGraphes" rel="noreferrer">
+                    {/* <a target="_blank" href="https://github.com/Yoan6/fusionGraphes" rel="noreferrer">
                         <div>
                             <section>Voir le projet</section>
                             <img className="icon" src={code} alt="code"/>
                         </div>
-                    </a>
+                    </a> */}
                 </div>
 
                 <ul className={style.bold}>

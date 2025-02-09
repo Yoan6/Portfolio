@@ -27,12 +27,12 @@ function TourOfHeroes() {
             <div id={style.infos_projets_container}>
                 <div id={style.project_name}>
                     <h1>Tour of Heroes</h1>
-                    <a target="_blank" href="https://github.com/Yoan6/Tour-of-Heroes" rel="noreferrer">
+                    {/* <a target="_blank" href="https://github.com/Yoan6/Tour-of-Heroes" rel="noreferrer">
                         <div>
                             <section>Voir le projet</section>
                             <img className="icon" src={code} alt="code"/>
                         </div>
-                    </a>
+                    </a> */}
                 </div>
 
                 <ul className={style.bold}>
