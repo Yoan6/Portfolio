@@ -17,9 +17,9 @@ function Experiences() {
                     </div>
                     <div className={styles.timelinePanel}>
                         <h4 className={styles.subheading}>Décembre 2024 - A ce jour</h4>
-                        <h4>CDI - Développeur Informatique</h4>
+                        <h4>CDI - Développeur Full Stack</h4>
                         <div>
-                            <p></p>
+                            <p>Développement de solutions web et logicielles dans l'IoT</p>
                             <p>Akensys</p>
                         </div>
                     </div>
@@ -32,9 +32,9 @@ function Experiences() {
                         <h4 className={styles.subheading}>2024</h4>
                         <h4>Stage de 3.5 mois</h4>
                         <div>
-                            <p>Création d’un site web et d’un algorithme permettant d’extraire, condenser et
-                                afficher les
-                                données de sites web concernant n’importe quelle commune de France</p>
+                            <p>Création d’un site web et d’un algorithme permettant d’extraire,
+                                condenser et afficher les données de sites web concernant n’importe
+                                quelle commune de France</p>
                             <p>LIG (Laboratoire d'Informatique de Grenoble)</p>
                         </div>
                     </div>

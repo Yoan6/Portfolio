@@ -12,12 +12,10 @@ function Home() {
                 {/* Informations personnelles */}
                 <div className={style.infoDetails}>
                     <div className={style.infoColumn}>
-                        <section>Âge</section>
                         <section>Téléphone</section>
                         <section>Email</section>
                     </div>
                     <div className={style.infoColumn}>
-                        <section>21</section>
                         <section>07 67 35 77 74</section>
                         <section>
                             <a className={style.link} href="mailto:yoan.delannoy1@gmail.com">yoan.delannoy1@gmail.com</a>
@@ -39,8 +37,8 @@ function Home() {
             <section className={style.aboutSection}>
                 <h2 className={style.link}>À propos de moi</h2>
                 <p>
-                    Diplômé d'un BUT Informatique à l'IUT2 de Grenoble, je suis actuellement développeur informatique chez Akensys à Lyon.
-                    En tant que développeur informatique, je développe des sites web et applications mobiles pour des clients d'Akensys comme Armand Thiery.
+                    Diplômé d'un BUT Informatique à l'IUT2 de Grenoble, je suis actuellement développeur full stack chez Akensys à Lyon.
+                    En tant que développeur full stack, je développe des sites web et applications mobiles pour des clients d'Akensys comme Armand Thiery.
                     Je suis passionné par le développement web et suis toujours curieux de voir les possibilités que nous offre ce domaine. 
                     {/* <span id={style.CDI}>Je suis actuellement à la recherche
                     d'un emploi dans le développement web en tant que développeur front-end, back-end ou full-stack.</span> */}
